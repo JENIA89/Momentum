@@ -81,7 +81,7 @@ function setBgGreet() {
     time = "evening";
     text = "Good Evening";
   }
-  document.body.style.backgroundImage = `linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/${time}/0${count}.jpg")`;
+  document.body.style.backgroundImage = `linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/${time}/0${count}.jpg")`;
   greeting.textContent = text;
 }
 

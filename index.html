@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="container">
+    <div class="set-info">
+        <div class="set-info__change">
+            <button class="btn">↻</button>
+        </div>
+        <div class="set-info__search">
+            <div class="city" contenteditable="true" spellcheck="false">Minsk</div>
+            <div class="info-weather">
+                <div class="temperature"></div>
+                <div class="weather-icon"></div>
+                <div class="info-weather__description">
+                    <div class="weather-description"></div>
+                    <div class="feel"></div>
+                    <div class="speed-wind"></div> 
+                    <div class="humidity"></div> 
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-date">
+        <time id="date"></time>
+        <time id="time"></time>
+        <h1>
+            <span id="greeting"></span>
+            <span id="name" contenteditable="true" spellcheck="false"></span>
+        </h1>
+
+        <h2>What Is Your Idea For Today?</h2>
+        <h2 id="idea" contenteditable="true" spellcheck="false"></h2>
+    </div>
+    <div class="info-quote">
+        <div class="quote-inner">
+            <div class="quote-inner__content">
+                You were not born a winner, and you were not born a loser. You are what you make yourself be.
+            </div>
+            <div class="quote-inner__author">Lou Holtz</div>
+        </div>
+        <button class="quote-btn">↻</button >
+    </div>
+    
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
